@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int oduzmi(int a, int b){
+int deljenje(int a, int b){
     return a/b;
 }
 
-int oduzmi(int a, int b){
+int mnozenje(int a, int b){
     return a*b;
 }
 
