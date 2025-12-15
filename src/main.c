@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// Funkcije kalkulatora
 int deljenje(int a, int b){
     return a/b;
 }
@@ -55,4 +56,3 @@ int main() {
 
     return 0;
 }
-
