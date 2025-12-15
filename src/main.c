@@ -1,6 +1,10 @@
 #include <stdio.h>
 
 int oduzmi(int a, int b){
+    return a/b;
+}
+
+int oduzmi(int a, int b){
     return a*b;
 }
 
