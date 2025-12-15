@@ -21,7 +21,7 @@ int main() {
     int izbor;
     int x, y;
 
-    printf("C Kalkulator");
+    printf("C Kalkulator\n");
     printf("Izaberite operaciju:\n");
     printf("1. Sabiranje\n");
     printf("2. Oduzimanje\n");
@@ -44,7 +44,10 @@ int main() {
             printf("Rezultat: %d\n", mnozenje(x, y));
             break;
         case 4:
-            printf("Rezultat: %d\n", deljenje(x, y));
+            if(y != 0)
+                printf("Rezultat: %d\n", deljenje(x, y));
+            else
+                printf("Greska: deljenje sa nulom!\n");
             break;
         default:
             printf("Nepostojeca opcija!\n");
@@ -52,3 +55,4 @@ int main() {
 
     return 0;
 }
+
