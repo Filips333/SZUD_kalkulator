@@ -21,7 +21,7 @@ int main() {
     int izbor;
     int x, y;
 
-    printf("C Kalkulator\n");
+    printf("C Kalkulator");
     printf("Izaberite operaciju:\n");
     printf("1. Sabiranje\n");
     printf("2. Oduzimanje\n");
